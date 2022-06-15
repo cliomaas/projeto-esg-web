@@ -1,0 +1,59 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-46.60300020054488,
+                    -23.548815107419095
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "hortifruti",
+                "hours": "10h - 18h",
+                "description": "Produtor: Alex Silva",
+                "name": "HortaViva Loja 3",
+                "phone": "+44 20 1234 5678",
+                "route": "https://www.google.com/maps/dir/?api=1&destination=Av. Alcântara Machado, 2200 - Parque da Mooca, São Paulo - SP, 03101-005",
+                "storeid": "01"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-46.66864528891077,
+                    -23.55571781877838
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "hortifruti",
+                "hours": "10h - 18h",
+                "description": "Produtor: Cassia Alvares",
+                "name": "HortaViva Loja 4",
+                "phone": "+44 117 121 2121",
+                "route": "https://www.google.com/maps/dir/?api=1&destination=Av. Dr. Arnaldo, 351-585 - Pacaembu, São Paulo - SP, 01246-903",
+                "storeid": "02"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -46.641152477275746,
+                    -23.621423206369958
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "hortifruti",
+                "hours": "10h - 18h",
+                "description": "Produtor: Rubez Roberto",
+                "name": "HortaViva Loja 5",
+                "phone": "+44 1603 123456",
+                "route": "https://www.google.com/maps/dir/?api=1&destination=R. Paracatu, 66 - Parque Imperial, São Paulo - SP, 04302-020",
+                "storeid": "03"
+            }
+        }
+    ]
+}
