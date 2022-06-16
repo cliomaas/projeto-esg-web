@@ -90,7 +90,7 @@ function initMap() {
     map.data.setStyle((feature) => {
         return {
             icon: {
-                url: "./img/hortaviva-planta.png",
+                url: "img/hortaviva-planta.png",
                 scaledSize: new google.maps.Size(64, 64),
             },
         };
