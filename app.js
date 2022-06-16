@@ -158,7 +158,9 @@ function initMap() {
     originMarker.setVisible(false);
     let originLocation = map.getCenter();
 
-    autocomplete.addListener('place_changed', async () => {
+    button = getElementById('botao-cep')
+
+    button.addListener('click', async () => {
         originMarker.setVisible(false);
         originLocation = map.getCenter();
         const place = autocomplete.getPlace();
