@@ -205,4 +205,17 @@
             .navbar {
                 padding: 0 !important;
             }
+            .flex-actions{
+                flex-direction: column !important;
+            }
+            .card-actions{
+                width: 100% !important;
+                align-items: center !important;
+            }
+            .buttons-ranking{
+                justify-content: center !important;
+            }
+            .buttons-ranking button{
+                width: 74vw;            
+            }
         }
