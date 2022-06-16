@@ -173,7 +173,7 @@ function initMap() {
         // Recenter the map to the selected address
         originLocation = place.geometry.location;
         map.setCenter(originLocation);
-        map.setZoom(20);
+        map.setZoom(10);
         console.log(place);
 
         originMarker.setPosition(originLocation);
