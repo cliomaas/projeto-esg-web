@@ -91,7 +91,7 @@ function initMap() {
         return {
             icon: {
                 url: "img/hortaviva-planta.png",
-                scaledSize: new google.maps.Size(64, 64),
+                scaledSize: new google.maps.Size(64, 85),
             },
         };
     });
