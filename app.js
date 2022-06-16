@@ -158,7 +158,7 @@ function initMap() {
     originMarker.setVisible(false);
     let originLocation = map.getCenter();
 
-    button = getElementById('botao-cep')
+    button = document.getElementById('botao-cep')
 
     button.addListener('click', async () => {
         originMarker.setVisible(false);
