@@ -86,15 +86,15 @@ function initMap() {
     // Load the stores GeoJSON onto the map.
     map.data.loadGeoJson('stores.json', { idPropertyName: 'storeid' });
 
-    // Define the custom marker icons, using the store's "category".
-    // map.data.setStyle((feature) => {
-    //     return {
-    //         icon: {
-    //             url: `img/icon_${feature.getProperty('category')}.png`,
-    //             scaledSize: new google.maps.Size(64, 64),
-    //         },
-    //     };
-    // });
+    //Define the custom marker icons, using the store's "category".
+    map.data.setStyle((feature) => {
+        return {
+            icon: {
+                url: "./img/hortaviva-planta.png",
+                scaledSize: new google.maps.Size(64, 64),
+            },
+        };
+    });
 
     const apiKey = 'AIzaSyCGMretojJ8FeeYjNQXQyeZT1I1j0nXgi4';
     const infoWindow = new google.maps.InfoWindow();
