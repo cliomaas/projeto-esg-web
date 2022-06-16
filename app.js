@@ -271,20 +271,23 @@ function showStoresList(data, stores) {
     stores.forEach((store) => {
         // Add store details with text formatting
         const name = document.createElement('p');
-        const route = document.createElement('a')
+        const route = document.createElement('a');
+        const hortas = document.createElement('div');
+        hortas.setAttribute('id', 'hortas')
+        panel.appendChild(hortas)
         name.classList.add('place');
         const currentStore = data.getFeatureById(store.storeid);
         name.textContent = currentStore.getProperty('name');
-        panel.appendChild(name);
+        hortas.appendChild(name);
         var linkText = document.createTextNode("Como chegar?");
         route.setAttribute('id', 'link-route')
         route.appendChild(linkText)
-        route.href = currentStore.getProperty('route')
-        panel.appendChild(route)
         const distanceText = document.createElement('p');
         distanceText.classList.add('distanceText');
-        distanceText.textContent = store.distanceText;
-        panel.appendChild(distanceText);
+        distanceText.textContent = "Distância até a loja:" + store.distanceText;
+        hortas.appendChild(distanceText);
+        route.href = currentStore.getProperty('route')
+        hortas.appendChild(route)
     });
 
     // Open the panel
